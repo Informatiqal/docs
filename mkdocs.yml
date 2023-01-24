@@ -1,0 +1,56 @@
+# yaml-language-server: $schema=https://squidfunk.github.io/mkdocs-material/schema.json?raw=true
+
+site_name: Informatiqal
+theme:
+  name: material
+  features:
+    - navigation.expand
+    - navigation.top
+  palette:
+    # Palette toggle for automatic mode
+    - media: "(prefers-color-scheme: slate)"
+      scheme: slate
+      toggle:
+        icon: material/brightness-7
+        name: Switch to light mode
+
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: default)"
+      scheme: default
+      toggle:
+        icon: material/brightness-4
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    # - media: "(prefers-color-scheme: dark)"
+    #   scheme: slate
+    #   toggle:
+    #     icon: material/brightness-4
+    #     name: Switch to system preference
+site_url: https://informatiqal.com/
+extra:
+  consent:
+    title: Cookie consent
+    description: >-
+      We use cookies to recognize your repeated visits and preferences, as well
+      as to measure the effectiveness of our documentation and whether users
+      find what they're searching for. With your consent, you're helping us to
+      make our documentation better.
+plugins:
+  - search:
+      lang: en
+  # - social:
+  #     cards_color:
+  #       fill: "#0FF1CE"
+  #       text: "#FFFFFF"
+markdown_extensions:
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+nav:
+  - Home: "index.md"
+  - "Automatiqal":
+      - "Writing your docs": "automatiqal/writing-your-docs.md"
+      - "Styling your docs": "styling-your-docs.md"
+  - About:
+      - "License": "license.md"
+      - "Release Notes": "release-notes.md"
