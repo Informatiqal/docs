@@ -40,4 +40,4 @@ jobs:
       - name: Adding Known Hosts
         run: ssh-keyscan -H ${{ secrets.SSH_HOST }} >> ~/.ssh/known_hosts
       - name: Deploy with rsync
-        run: rsync -avz ./site/ ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:/var/www/{{ secrets.SSH_HOST }}/
+        run: rsync -avz ./site/ ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:/var/www/${{ secrets.SSH_HOST }}/
