@@ -1,1 +1,3 @@
 # Informatiqal projects documentation
+
+## Deployed
