@@ -4,7 +4,7 @@ site_name: Informatiqal
 theme:
   name: material
   features:
-    - navigation.expand
+    # - navigation.expand
     - navigation.top
   palette:
     # Palette toggle for automatic mode
@@ -20,13 +20,6 @@ theme:
       toggle:
         icon: material/brightness-4
         name: Switch to dark mode
-
-    # Palette toggle for dark mode
-    # - media: "(prefers-color-scheme: dark)"
-    #   scheme: slate
-    #   toggle:
-    #     icon: material/brightness-4
-    #     name: Switch to system preference
 site_url: https://informatiqal.com/
 extra:
   consent:
@@ -39,18 +32,36 @@ extra:
 plugins:
   - search:
       lang: en
-  # - social:
-  #     cards_color:
-  #       fill: "#0FF1CE"
-  #       text: "#FFFFFF"
+  - section-index
 markdown_extensions:
-  - pymdownx.highlight
+  - pymdownx.highlight:
+      use_pygments: true
+      linenums: true
+  - pymdownx.superfences
   - pymdownx.inlinehilite
+  - pymdownx.smartsymbols
+  - admonition
+  # - pymdownx.emoji:
+  #     emoji_index: !!python/name:materialx.emoji.twemoji
+  #     emoji_generator: !!python/name:materialx.emoji.to_svg
 nav:
   - Home: "index.md"
   - "Automatiqal":
-      - "Writing your docs": "automatiqal/writing-your-docs.md"
-      - "Styling your docs": "styling-your-docs.md"
-  - About:
-      - "License": "license.md"
-      - "Release Notes": "release-notes.md"
+      - automatiqal/index.md
+      - "Authentication": "automatiqal/authentication.md"
+      - "Runbook structure": "automatiqal/runbook-structure.md"
+      - "Tasks": "automatiqal/tasks.md"
+      - "Events": "automatiqal/events.md"
+      - "Operations": "automatiqal/operations.md"
+  - "Automatiqal CLI":
+      - automatiqal-cli/index.md
+      - "Installation": "automatiqal-cli/install.md"
+      - "Runbook structure": "automatiqal-cli/runbook-structure.md"
+      - "Variables":
+          - automatiqal-cli/variables/index.md
+          - "Dedicated file": "automatiqal-cli/variables/dedicated.md"
+          - "Environment": "automatiqal-cli/variables/environment.md"
+          - "Global file": "automatiqal-cli/variables/global.md"
+          - "Inline": "automatiqal-cli/variables/inline.md"
+# how to configure social cards
+# https://squidfunk.github.io/mkdocs-material/setup/setting-up-social-cards/?h=socia#configuration

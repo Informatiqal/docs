@@ -1,2 +1,5 @@
 site/
 .vscode/settings.json
+package.json
+.pnotes/
+.vscode/
