@@ -6,6 +6,7 @@ theme:
   features:
     # - navigation.expand
     - navigation.top
+  custom_dir: docs/overrides
   palette:
     # Palette toggle for automatic mode
     - media: "(prefers-color-scheme: slate)"
