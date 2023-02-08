@@ -1,23 +1,17 @@
 # Informatiqal (user) documentation
 
-This site contains user documentation for all `Informatiqal` projects:
-
-[Automatiqal](/automatiqal/) (TBA)
+This site contains user documentation for all [Informatiqal](https://informatiqal.com) projects:
 
 [Automatiqal CLI](/automatiqal-cli/)
 
-[Test-O-Matiq](/automatiqal/) (TBA)
+TBA
 
-[Test-O-Matiq](/automatiqal/) (TBA)
-
-[Qlik Rest API](/automatiqal/) (TBA)
-
-[Qlik Repo API](/automatiqal/) (TBA)
-
-[Qlik Proxy API](/automatiqal/) (TBA)
-
-[Qlik SaaS API](/automatiqal/) (TBA)
-
-<!-- ? [Qlik API Browser](/automatiqal/) (TBA) -->
-
-[qlBuilder](/automatiqal/) (TBA)
+- Automatiqal
+- Test-O-Matiq
+- Test-O-Matiq CLI
+- Qlik Rest API
+- Qlik Repo API
+- Qlik Proxy API
+- Qlik SaaS API
+- qlBuilder
+<!-- ? Qlik API Browser -->
