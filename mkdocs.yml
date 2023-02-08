@@ -28,7 +28,9 @@ extra:
       We use cookies to recognize your repeated visits and preferences, as well
       as to measure the effectiveness of our documentation and whether users
       find what they're searching for. With your consent, you're helping us to
-      make our documentation better.
+      make our documentation better
+extra_css:
+  - stylesheets/extra.css
 plugins:
   - search:
       lang: en
@@ -41,27 +43,37 @@ markdown_extensions:
   - pymdownx.inlinehilite
   - pymdownx.smartsymbols
   - admonition
-  # - pymdownx.emoji:
-  #     emoji_index: !!python/name:materialx.emoji.twemoji
-  #     emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      # emoji_generator: !!python/name:materialx.emoji.to_svg
 nav:
   - Home: "index.md"
   - "Automatiqal":
       - automatiqal/index.md
-      - "Authentication": "automatiqal/authentication.md"
       - "Runbook structure": "automatiqal/runbook-structure.md"
       - "Tasks": "automatiqal/tasks.md"
       - "Events": "automatiqal/events.md"
       - "Operations": "automatiqal/operations.md"
+      - "Authentication": "automatiqal/authentication.md"
   - "Automatiqal CLI":
       - automatiqal-cli/index.md
       - "Installation": "automatiqal-cli/install.md"
-      - "Runbook structure": "automatiqal-cli/runbook-structure.md"
+      - "Runbook structure":
+          - "automatiqal-cli/runbook-structure.md"
+          - "Task block": "automatiqal-cli/task-details/task-block.md"
+          - "Filter/source": "automatiqal-cli/task-details/filter-source.md"
+          - "Task options": "automatiqal-cli/task-details/options.md"
+          - "onError block": "automatiqal-cli/on-error-block.md"
+          - "Operations list": "automatiqal-cli/task-details/operations-list.md"
+      - "Authentication": "automatiqal-cli/authentication.md"
       - "Variables":
           - automatiqal-cli/variables/index.md
           - "Dedicated file": "automatiqal-cli/variables/dedicated.md"
           - "Environment": "automatiqal-cli/variables/environment.md"
           - "Global file": "automatiqal-cli/variables/global.md"
           - "Inline": "automatiqal-cli/variables/inline.md"
-# how to configure social cards
+      - "Schema": "automatiqal-cli/schema.md"
+      - "Initial checks": "automatiqal-cli/initial-checks.md"
+      - "Output": "automatiqal-cli/output.md"
+# TODO: how to configure social cards
 # https://squidfunk.github.io/mkdocs-material/setup/setting-up-social-cards/?h=socia#configuration
