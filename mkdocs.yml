@@ -1,12 +1,16 @@
 # yaml-language-server: $schema=https://squidfunk.github.io/mkdocs-material/schema.json?raw=true
 
 site_name: Informatiqal
+repo_url: https://github.com/Informatiqal
+repo_name: I N F O R M A T I Q A L
 theme:
   name: material
   features:
     # - navigation.expand
     - navigation.top
   custom_dir: docs/overrides
+  icon:
+    repo: fontawesome/brands/github
   palette:
     # Palette toggle for automatic mode
     - media: "(prefers-color-scheme: slate)"
