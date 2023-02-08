@@ -77,6 +77,7 @@ nav:
           - "Environment": "automatiqal-cli/variables/environment.md"
           - "Global file": "automatiqal-cli/variables/global.md"
           - "Inline": "automatiqal-cli/variables/inline.md"
+          - "Reserved variables": "automatiqal-cli/variables/special.md"
       - "Schema": "automatiqal-cli/schema.md"
       - "Initial checks": "automatiqal-cli/initial-checks.md"
       - "Output": "automatiqal-cli/output.md"
