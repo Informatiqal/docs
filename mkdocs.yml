@@ -81,5 +81,6 @@ nav:
       - "Schema": "automatiqal-cli/schema.md"
       - "Initial checks": "automatiqal-cli/initial-checks.md"
       - "Output": "automatiqal-cli/output.md"
+      - "Examples": "automatiqal-cli/examples.md"
 # TODO: how to configure social cards
 # https://squidfunk.github.io/mkdocs-material/setup/setting-up-social-cards/?h=socia#configuration
