@@ -9,4 +9,10 @@ Example:
 
 !!! warning
 
-    Specifying variables like this will keep the command in commands the history. Please try and do not pass sensitive (passwords, api keys, tokens etc.) data with this method.
+    Specifying variables like this will keep the command in the commands history. Please try and do not pass sensitive (passwords, api keys, tokens etc.) data with this method.
+
+!!! note
+
+    For PowerShell please wrap the variables into double quotes. For example:
+
+    `automatiqal --file runbook.yaml -i "host=my-sense-instance.com;virtual-proxy=jwt"`
