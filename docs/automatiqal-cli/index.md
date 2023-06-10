@@ -24,4 +24,13 @@ The easiest way to start writing runbooks is to invoke the `sample` command. Thi
 
 Automatiqal CLI introduction video
 
-TBA
+<iframe
+    width="640"
+    height="480"
+    src="https://www.youtube.com/embed/ZU13H9uw1lM"
+    frameborder="0"
+    allow="autoplay; encrypted-media"
+    allowfullscreen
+    referrerpolicy="no-referrer-when-downgrade"
+>
+</iframe>
