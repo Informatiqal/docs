@@ -65,6 +65,7 @@ nav:
   - "Automatiqal CLI":
       - automatiqal-cli/index.md
       - "Installation": "automatiqal-cli/install.md"
+      - "Commands": "automatiqal-cli/commands.md"
       - "Runbook structure":
           - "automatiqal-cli/runbook-structure.md"
           - "Task block": "automatiqal-cli/task-details/task-block.md"
