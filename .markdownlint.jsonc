@@ -3,5 +3,9 @@
         "front_matter_title": ""
     },
     "MD013": false,
-    "MD046": false
+    "MD046": false,
+    "MD024": false,
+    "MD007": {
+        "indent": 4
+    }
 }

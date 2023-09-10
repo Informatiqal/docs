@@ -13,6 +13,7 @@ Each task can be "split" into two sections - meta and details
 - `name` - user defined.
 - `description` - (optional) short description of the task
 - `operation` - valid [operation](./operations-list.md)
+- `skip` - (optional) `boolean`. If `false` then the task will not be executed. Default value is `false`
 
 !!! Warning
 

@@ -2,7 +2,7 @@
 
 This site contains user documentation for all [Informatiqal](https://informatiqal.com) projects:
 
-[Automatiqal CLI](/automatiqal-cli/)
+[Automatiqal CLI](automatiqal-cli/index.md)
 
 TBA
 

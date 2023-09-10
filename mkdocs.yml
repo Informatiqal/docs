@@ -13,7 +13,7 @@ theme:
     repo: fontawesome/brands/github
   palette:
     # Palette toggle for automatic mode
-    - media: "(prefers-color-scheme: slate)"
+    - media: "slate"
       scheme: slate
       toggle:
         icon: material/brightness-7
@@ -47,12 +47,14 @@ markdown_extensions:
   - pymdownx.superfences
   - pymdownx.inlinehilite
   - pymdownx.smartsymbols
+  - pymdownx.tilde
   - admonition
   - attr_list
   - md_in_html
   - pymdownx.emoji:
-      emoji_index: !!python/name:materialx.emoji.twemoji
-      # emoji_generator: !!python/name:materialx.emoji.to_svg
+      emoji_index:
+        !!python/name:materialx.emoji.twemoji # emoji_generator: !!python/name:materialx.emoji.to_svg
+
 nav:
   - Home: "index.md"
   - "Automatiqal":
@@ -85,5 +87,11 @@ nav:
       - "Initial checks": "automatiqal-cli/initial-checks.md"
       - "Output": "automatiqal-cli/output.md"
       - "Examples": "automatiqal-cli/examples.md"
+  - "Qlik SSE (Node.js)":
+      - qlik-sse/index.md
+      - "Installation": qlik-sse/install.md
+      - "Basic plugin": qlik-sse/basic-sse-plugin.md
+      - "SSL setup": qlik-sse/ssl.md
+      - "Qlik setup": qlik-sse/qs-setup.md
 # TODO: how to configure social cards
 # https://squidfunk.github.io/mkdocs-material/setup/setting-up-social-cards/?h=socia#configuration
