@@ -4,6 +4,8 @@ This site contains user documentation for all [Informatiqal](https://informatiqa
 
 [Automatiqal CLI](automatiqal-cli/index.md)
 
+[Qlik SSE](qlik-sse/index.md)
+
 TBA
 
 - Automatiqal
