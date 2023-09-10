@@ -1,7 +1,7 @@
 # Basic usage
 
 ```javascript
-const q = require("@informatiqal/qlik-sse");
+import * as q from "@informatiqal/qlik-sse";
 
 // create an instance of the server
 const s = q.server({
@@ -14,7 +14,7 @@ const s = q.server({
 function greenOrRed(request) {
   request.on("data", (bundle) => {
     // since our function is defined to return string ->
-    //   returnType: q.sse.DataType.values.STRING
+    //   returnType: q.sse.DataType.STRING
     // we have to return strData property
     const rows = bundle.rows.map((row) => {
       return {
@@ -32,13 +32,13 @@ function greenOrRed(request) {
 
 // register functions with SSE
 s.addFunction(greenOrRed, {
-  functionType: q.sse.FunctionType.values.SCALAR,
-  returnType: q.sse.DataType.values.STRING,
+  functionType: q.sse.FunctionType.SCALAR,
+  returnType: q.sse.DataType.STRING,
   name: "color",
   params: [
     {
       name: "first",
-      dataType: q.sse.DataType.values.NUMERIC,
+      dataType: q.sse.DataType.NUMERIC,
     },
   ],
 });
