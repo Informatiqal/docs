@@ -89,9 +89,12 @@ nav:
       - "Examples": "automatiqal-cli/examples.md"
   - "Qlik SSE (Node.js)":
       - qlik-sse/index.md
+      - "Concepts": qlik-sse/concepts.md
       - "Installation": qlik-sse/install.md
       - "Basic plugin": qlik-sse/basic-sse-plugin.md
       - "SSL setup": qlik-sse/ssl.md
       - "Qlik setup": qlik-sse/qs-setup.md
+      - "API": qlik-sse/api.md
+      - "Build-in SSE functions": qlik-sse/build-in.md
 # TODO: how to configure social cards
 # https://squidfunk.github.io/mkdocs-material/setup/setting-up-social-cards/?h=socia#configuration

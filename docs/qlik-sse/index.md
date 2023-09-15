@@ -21,6 +21,6 @@ Im picking this project for a few reasons:
 - ~~SSL - gRPC have the ability to use SSL (certificates) to communicate with the client. Since we are talking about data being send back and forth then using SSL is a must!~~
 - ~~dependencies update - since the original project was abandoned couple of years ago its dependencies are out of date~~
 - features - make sure that the project cover all possibilities of SSE
-- ES6 - at the moment the project is written in CommonJS. It has to be re-written to ES6 format
+- ~~ES6 - at the moment the project is written in CommonJS. It has to be re-written to ES6 format~~
 - examples - if possible provide more examples
 - documentation - create place for full user documentation aka this site :)

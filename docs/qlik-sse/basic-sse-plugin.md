@@ -32,9 +32,10 @@ function greenOrRed(request) {
 
 // register functions with SSE
 s.addFunction(greenOrRed, {
+  name: "color",
+  description: "My SSE function description",
   functionType: q.sse.FunctionType.SCALAR,
   returnType: q.sse.DataType.STRING,
-  name: "color",
   params: [
     {
       name: "first",
