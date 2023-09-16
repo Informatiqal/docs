@@ -144,7 +144,7 @@ If we want to calculate the _sum_ of _Sales_ for each _Product group_, we simply
 
 !!!danger
 
-    Note! Enabling script evaluation is dangerous! For more information why please check [eval()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/eval#Do_not_ever_use_eval!) function description
+    Enabling script evaluation is dangerous! For more information why please check [eval()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/eval#Do_not_ever_use_eval!) function description
 
 Script evaluation makes it easy to run some basic arithmetic and string manipulation.
 

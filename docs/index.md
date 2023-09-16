@@ -2,6 +2,8 @@
 
 This site contains user documentation for all [Informatiqal](https://informatiqal.com) projects:
 
+[Automatiqal](automatiqal/index.md)
+
 [Automatiqal CLI](automatiqal-cli/index.md)
 
 [Qlik SSE](qlik-sse/index.md)
