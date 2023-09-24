@@ -55,6 +55,7 @@ markdown_extensions:
       emoji_index:
         !!python/name:materialx.emoji.twemoji # emoji_generator: !!python/name:materialx.emoji.to_svg
 
+
 nav:
   - Home: "index.md"
   - "Automatiqal":
@@ -87,6 +88,11 @@ nav:
       - "Initial checks": "automatiqal-cli/initial-checks.md"
       - "Output": "automatiqal-cli/output.md"
       - "Examples": "automatiqal-cli/examples.md"
+  - "Test-O-Matiq":
+      - test-o-matiq/index.md
+      - "Future": test-o-matiq/future.md
+  - "Test-O-Matiq CLI":
+      - test-o-matiq-cli/index.md
   - "Qlik SSE (Node.js)":
       - qlik-sse/index.md
       - "Concepts": qlik-sse/concepts.md

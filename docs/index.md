@@ -8,10 +8,11 @@ This site contains user documentation for all [Informatiqal](https://informatiqa
 
 [Qlik SSE](qlik-sse/index.md)
 
+[Test-O-Matiq](test-o-matiq/index.md)
+
 TBA
 
 - Automatiqal
-- Test-O-Matiq
 - Test-O-Matiq CLI
 - Qlik Rest API
 - Qlik Repo API
