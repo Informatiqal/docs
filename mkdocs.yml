@@ -26,6 +26,7 @@ theme:
         icon: material/brightness-4
         name: Switch to dark mode
 site_url: https://informatiqal.com/
+site_description: Informatiqal detailed user documentation
 extra:
   consent:
     title: Cookie consent
@@ -37,6 +38,15 @@ extra:
 extra_css:
   - stylesheets/extra.css
 plugins:
+  - rss:
+      abstract_chars_count: 160
+      comments_path: "null"
+      enabled: true
+      feed_ttl: 1440
+      image: https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Feed-icon.svg/128px-Feed-icon.svg.png
+      length: 20
+      match_path: .*
+      pretty_print: false
   - search:
       lang: en
   - section-index
