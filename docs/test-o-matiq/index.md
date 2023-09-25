@@ -4,7 +4,7 @@
 
 Data testing is usually boring and time consuming job and also is lacking when developing BI apps (Qlik included). For this reason we are introducing `Test-O-Matiq`. It is a Node.js package that allows to run user specified data tests against Qlik apps.
 
-`Test-O-Matiq` might not be popular by itself. The main consumer will be [Test-O-Matiq CLI](/test-o-matiq-cli). The CLI will wrap this package and have the ability to define the test suites in YAML/JSON files which then will be ran by the CLI.
+`Test-O-Matiq` might not be popular by itself. The main consumer will be [Test-O-Matiq CLI](../test-o-matiq-cli/index.md). The CLI will wrap this package and have the ability to define the test suites in YAML/JSON files which then will be ran by the CLI.
 
 Tests can be splint in two areas:
 

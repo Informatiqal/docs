@@ -21,7 +21,7 @@ If we run `generate_sse_certs.bat test` the following folders and files will be 
 
 ![Set of certificates](images/set-of-certificates.png)
 
-Check out [QS Setup](/qlik-sse/qs-setup) section for information how to setup QS to use these certificates
+Check out [QS Setup](qs-setup.md) section for information how to setup QS to use these certificates
 
 !!!warning
 
