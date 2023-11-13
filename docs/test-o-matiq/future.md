@@ -2,7 +2,7 @@
 
 A (lots) of things are planned to be added:
 
-- state - ability to define at what Qlik state the test will be ran (or selections to be made)
+- ~~state - ability to define at what Qlik state the test will be ran (or selections to be made)~~
 - deviations - atm the results are compared strictly (A === B). Option to add %, +/- etc variations between the results
 - table - new test type. Specify table (dimensions, measures and values) inside the test and compare with Qlik table
 - other test types?

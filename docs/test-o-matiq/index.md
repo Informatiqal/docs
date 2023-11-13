@@ -42,6 +42,10 @@ List of tables to exists and the count of their rows is matching an expected num
 
 Check if specific data connections are available/visible from the app/user
 
+#### Master items
+
+Similar to data connections check, just check if specific master items are present in the app (dimensions, measures and visualizations)
+
 ### Data
 
 This is where the real data tests are happening.
@@ -121,10 +125,12 @@ At the moment two types of tests can be specified:
           clearAllBeforeEach: true,
         },
         // define selections that will be made prior each test execution
+        // (optional) define in which state the selections will be made
         selections: [
           {
             field: "Product Group Desc",
             values: ["Produce"],
+            state: "Some alternate state"
           },
         ],
         tests: [
@@ -152,7 +158,6 @@ At the moment two types of tests can be specified:
             // list test example - check if specific field values are present
             name: "List test",
             type: "list",
-            selections: [],
             details: {
               name: "Product Group Desc",
               values: ["Produce", "Deli"],

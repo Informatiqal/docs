@@ -100,6 +100,17 @@ nav:
       - "Examples": "automatiqal-cli/examples.md"
   - "Test-O-Matiq":
       - test-o-matiq/index.md
+      - "Structure":
+          - test-o-matiq/structure/index.md
+          - "General": "test-o-matiq/structure/general.md"
+          # - "Environment": "test-o-matiq/structure/environment.md"
+          - "Props": "test-o-matiq/structure/props.md"
+          - "Spec":
+              - test-o-matiq/structure/spec/index.md
+              - "Meta": test-o-matiq/structure/spec/meta/index.md
+              - "Data": test-o-matiq/structure/spec/data/index.md
+      - "Alternate states": test-o-matiq/states.md
+      - "Events": test-o-matiq/events.md
       - "Future": test-o-matiq/future.md
   - "Test-O-Matiq CLI":
       - test-o-matiq-cli/index.md
