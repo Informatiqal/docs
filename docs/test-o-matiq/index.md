@@ -150,8 +150,14 @@ At the moment two types of tests can be specified:
               // use normal Qlik expression definition
               expression:
                 "round(Sum([Sales Margin Amount])/Sum([Sales Amount]), 0.01)",
-              result: "=$(test)", // sum(0.45)
-              operator: "=",
+              results: [{
+                value: "=$(test)", // sum(0.45),
+                operator: "==",
+              },
+              {
+                value: "100",
+                operator: "<=",
+              }]
             },
           },
           {

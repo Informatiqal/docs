@@ -123,6 +123,27 @@ This test type is to validate if values in specific field are present or missing
 - operator - one of `present` or `missing`
 - state - optional field to define in which state the list will be evaluated
 
+## Variations
+
+Each expected result can be flagged as passed if the calculation result is in some variation/tolerance from from the expected result.
+
+For example: - calculation returns `110` - expected result `100` - the test is passed if the calculation result is within `+-5%` of the expected result
+
+In the example above the test will be passed if the calculation result is between `95` and `105`.
+
+Possible variations:
+
+- `+-NUMBER`
+- `NUMBER` (same as `+NUMBER`)
+- `-NUMBER`
+- `+-NUMBER%`
+- `NUMBER%` (same as `+NUMBER%`)
+- `-NUMBER%`
+
+!!! note
+
+    More variation options are planned. Such as using an expressions.
+
 ## Full example
 
 ```js
@@ -139,7 +160,7 @@ data: {
         {
             name: "Test expression 2",
             type: "scalar",
-            // test specific selections. 
+            // test specific selections.
             // Made after the test suite selections are performed
             selections: [
             {
@@ -150,7 +171,19 @@ data: {
             details: {
                 expression: "round([Margin %] * 100, 0.1)",
                 operator: "==",
-                result: 43.6,
+                result: [
+                    // the expression result should strictly match the value (43.6)
+                    {
+                        value: "43.6",
+                        operator: "=="
+                    },
+                    // second test - the expression result should also be less than
+                    // or equal to 100
+                    {
+                        value: "100",
+                        operator: "<="
+                    }
+                ]
             },
         },
         {
@@ -166,8 +199,10 @@ data: {
             ],
             details: {
                 expression: "round([Margin %] * 100, 0.01)",
-                operator: "==",
-                result: 44.89,
+                results: [{
+                    operator: "==",
+                    result: 44.89,
+                }]
             },
         },
         {
@@ -176,8 +211,10 @@ data: {
             skip: true,
             details: {
                 expression: "sum(1001)",
-                operator: ">=",
-                result: 900,
+                results:[{
+                    operator: ">=",
+                    result: 900,
+                }]
             },
         },
         ],
