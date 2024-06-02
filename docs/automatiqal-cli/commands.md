@@ -14,7 +14,7 @@ The runbook file location
 
 !!! note "Non local files"
 
-    If the `file` argument value is in url format, then Automatiqal CLI will attempt to download the runbook    
+    If the `file` argument value is in url format, then Automatiqal CLI will attempt to download the runbook
 
 ### variables
 
@@ -72,7 +72,7 @@ Saves the raw result into the provided file. The result is always returned as JS
 
     `automatiqal --file path\to\runbook.yaml --output path\to\some-file.json`
 
-    `automatiqal --file path\to\runbook.yaml - path\to\some-file.json`
+    `automatiqal --file path\to\runbook.yaml -o path\to\some-file.json`
 
 ### raw (flag)
 
@@ -84,7 +84,17 @@ Display the raw result directly in the console/terminal. When this flag is used 
 
 !!! note "Further processing"
 
-    Use this command if the result have to be processed outside Automatiqal 
+    Use this command if the result have to be processed outside Automatiqal
+
+### summary
+
+Saves the summary output in a file. This do **not** prevent the summary to be displayed on the terminal
+
+!!! example "Example"
+
+    `automatiqal --file path\to\runbook.yaml --summary path\to\some-file.txt`
+
+    `automatiqal --file path\to\runbook.yaml -s path\to\some-file.txt`
 
 ### connect
 
