@@ -62,7 +62,8 @@ loop:
   operation: tag.create
   loop:
     - name: Some name 1
-      another: something 4    - name: Some name 2
+      another: something 4    
+    - name: Some name 2
       another: something 5
     - name: Some name 3
       another: something 6
@@ -99,3 +100,22 @@ For example - if we have to publish multiple apps and each app should be publish
 Since tasks with a `loop` are ran multiple times then the result of these will be the combined result from all the runs.
 
 In our example above if we want to perform another task, that us using the result from `Publish apps` as a source, then this task will be performed on both published apps.
+
+## Concurrency
+
+By default the loops are executed in sequence. There is a task option that can overwrite this behavior and run the loops in parallel:
+
+```yaml
+- name: Create some tags
+  operation: tag.create
+  loop:
+    - Some tag 1
+    - Some tag 2
+    - Some tag 3
+  details:
+   - name: {{ item }}
+  options:
+    loopParallel: true
+```
+
+When `loopParallel` options is explicitly set to `true` then the loops will be ran in parallel.
