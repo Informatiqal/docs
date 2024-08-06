@@ -104,6 +104,14 @@ Test if connection with Qlik can be established from the provided `environment` 
 
     `automatiqal --connect`
 
+### compile
+
+Loads the main runbook and all `import` runbooks and saves the result as one single runbook
+
+!!! example "Example"
+
+    `automatiqal --file path\to\runbook.yaml --variables path\to\variables.yaml --compile path\to\compiled.yaml
+
 ### sample
 
 Generate sample runbook and variables files in the **current folder**
