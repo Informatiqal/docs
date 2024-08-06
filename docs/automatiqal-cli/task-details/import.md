@@ -25,7 +25,7 @@ The package will:
 - load the main runbook file
 - loop through the tasks and find `import` tasks
 - loads the `import` file and replace the defined `import` tasks with the content of the loaded file
-  - this loop will continue until no `import` task is found. This means that `import of import of import ...` is a valid scenario
+    - this loop will continue until no `import` task is found. This means that `import of import of import ...` is a valid scenario
 - continue from here as usual
 
 !!! warning
