@@ -85,6 +85,7 @@ nav:
           - "Filter/source": "automatiqal-cli/task-details/filter-source.md"
           - "Task options": "automatiqal-cli/task-details/options.md"
           - "Loop": "automatiqal-cli/task-details/loop.md"
+          - "Conditions": "automatiqal-cli/task-details/conditions.md"
           - "Import": "automatiqal-cli/task-details/import.md"
           - "onError block": "automatiqal-cli/on-error-block.md"
           - "Operations list": "automatiqal-cli/task-details/operations-list.md"
