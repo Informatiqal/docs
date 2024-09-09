@@ -34,7 +34,9 @@ contentLibrary.exportMany
 contentLibrary.create
 contentLibrary.update
 contentLibrary.remove
-compositeTrigger.remove
+compositeTrigger.create
+compositeTrigger.get
+compositeTrigger.getAll
 compositeTrigger.update
 customProperty.create
 customProperty.update
@@ -72,6 +74,11 @@ reloadTask.startSynchronous
 reloadTask.update
 reloadTask.waitExecution
 reloadTask.remove
+schemaTrigger.create
+schemaTrigger.get
+schemaTrigger.getAll
+schemaTrigger.remove
+schemaTrigger.update
 stream.create
 stream.get
 stream.getAll
