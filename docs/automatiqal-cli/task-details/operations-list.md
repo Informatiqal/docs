@@ -38,6 +38,11 @@ compositeTrigger.create
 compositeTrigger.get
 compositeTrigger.getAll
 compositeTrigger.update
+customBannerMessage.get
+customBannerMessage.getAll
+customBannerMessage.create
+customBannerMessage.update
+customBannerMessage.remove
 customProperty.create
 customProperty.update
 customProperty.remove
@@ -46,6 +51,11 @@ dataConnection.getAll
 dataConnection.create
 dataConnection.remove
 dataConnection.update
+engineHealth.get
+engineHealth.getAll
+engineHealth.create
+engineHealth.update
+engineHealth.remove
 extension.get
 extension.getAll
 extension.import
