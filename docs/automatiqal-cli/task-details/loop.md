@@ -10,11 +10,12 @@ Task can be executed multiple times by using `loop` property. For example if the
 - name: Create tags
   operation: tag.create
   loop:
-    - Some name 1
-    - Some name 2
-    - Some name 3
+    values:
+      - Some name 1
+      - Some name 2
+      - Some name 3
   details:
-   - name: {{ item }}
+    - name: { { item } }
 ```
 
 `Automatiqal` will loop through the values, defined in the `loop` property and will run the same operation but replacing `{{ item }}` with the currently looped value.
@@ -30,25 +31,28 @@ Examples:
 
 ```yaml
 loop:
- - some name 1
- - 12345
- - true
+  values:
+    - some name 1
+    - 12345
+    - true
 ```
 
 ```yaml
 loop:
- - key: value
- - key: 12345
- - key: true
+  values:
+    - key: value
+    - key: 12345
+    - key: true
 ```
 
 The following is **NOT allowed** since it will mix primitive values and objects:
 
 ```yaml
 loop:
-  - some name 1
-  - 12345
-  - key: some value
+  values:
+    - some name 1
+    - 12345
+    - key: some value
 ```
 
 ## Accessing values
@@ -61,14 +65,15 @@ loop:
 - name: Create tags
   operation: tag.create
   loop:
-    - name: Some name 1
-      another: something 4    
-    - name: Some name 2
-      another: something 5
-    - name: Some name 3
-      another: something 6
+    values:
+      - name: Some name 1
+        another: something 4
+      - name: Some name 2
+        another: something 5
+      - name: Some name 3
+        another: something 6
   details:
-   - name: {{ item.name }}
+    - name: { { item.name } }
 ```
 
 While looping `Automatiqal` will use the value for the `name` property to replace `item.name` with.
@@ -84,15 +89,16 @@ For example - if we have to publish multiple apps and each app should be publish
   operation: app.publish
   filter: id eq {{ item.appId }}
   loop:
-    - appId: 11111111-1111-1111-1111-11111111111
-      appNewName: New app name
-      stream: Some stream
-    - appId: 22222222-2222-2222-2222-22222222222
-      appNewName: Another new app name
-      stream: Another stream
+    values:
+      - appId: 11111111-1111-1111-1111-11111111111
+        appNewName: New app name
+        stream: Some stream
+      - appId: 22222222-2222-2222-2222-22222222222
+        appNewName: Another new app name
+        stream: Another stream
   details:
-    stream: {{ item.stream }}
-    name: {{ item.appNewName }}
+    stream: { { item.stream } }
+    name: { { item.appNewName } }
 ```
 
 ## Task results
@@ -109,13 +115,52 @@ By default the loops are executed in sequence. There is a task option that can o
 - name: Create some tags
   operation: tag.create
   loop:
-    - Some tag 1
-    - Some tag 2
-    - Some tag 3
+    values:
+      - Some tag 1
+      - Some tag 2
+      - Some tag 3
   details:
-   - name: {{ item }}
+    - name: { { item } }
   options:
     loopParallel: true
 ```
 
 When `loopParallel` options is explicitly set to `true` then the loops will be ran in parallel.
+
+## External files
+
+Loop values can be provided by loading external files:
+
+```yaml
+- name: Create some tags
+  operation: tag.create
+  loop:
+    location: c:\some\path\to\file.csv
+    format: csv
+  details:
+    - name: { { item } }
+  options:
+    loopParallel: true
+```
+
+The example above will read the specified csv file and will loop through it's rows. If the csv have multiple columns then the `{{ item.<key> }}` syntax can be used.
+
+### Formats
+
+At the moment only 3 file formats are supported: `csv`, `json` and `yaml`
+
+#### CSV files
+
+- can have multiple columns
+- should be comma separated
+- UTF-8 encoded
+
+#### JSON files
+
+- contains json array
+- UTF-8 encoded
+
+#### YAML files
+  
+  - contains array
+  - UTF-8 encoded
