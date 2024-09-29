@@ -89,6 +89,7 @@ nav:
           - "Conditions": "automatiqal-cli/task-details/conditions.md"
           - "Import": "automatiqal-cli/task-details/import.md"
           - "onError block": "automatiqal-cli/on-error-block.md"
+          - "Multiple environments": "automatiqal-cli/multiple-environments.md"
           - "Operations list": "automatiqal-cli/task-details/operations-list.md"
       - "Authentication": "automatiqal-cli/authentication.md"
       - "Variables":
