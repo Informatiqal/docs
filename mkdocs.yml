@@ -119,6 +119,10 @@ nav:
       - "Future": test-o-matiq/future.md
   - "Test-O-Matiq CLI":
       - test-o-matiq-cli/index.md
+  - "Publiqate":
+    - publiqate/index.md
+    - "Plugins": publiqate/plugins.md
+    - "Admin UI and API": publiqate/admin-and-api.md
   - "Qlik SSE (Node.js)":
       - qlik-sse/index.md
       - "Concepts": qlik-sse/concepts.md

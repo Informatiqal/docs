@@ -164,3 +164,18 @@ At the moment only 3 file formats are supported: `csv`, `json` and `yaml`
   
   - contains array
   - UTF-8 encoded
+
+## Pause
+
+If needed to pause between the iterations we can use the `pause` property:
+
+```yaml
+loop:
+  pause: 2.5
+  values:
+    - some name 1
+    - 12345
+    - true
+```
+
+In the example above, after each iteration there will be 2.5 seconds pause.

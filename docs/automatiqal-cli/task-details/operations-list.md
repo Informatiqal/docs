@@ -121,5 +121,17 @@ user.create
 user.remove
 user.update
 continue
-debug;
+debug
+pause
+```
+
+## Pause
+
+We can define pause between the tasks using `pause` operation:
+
+```yaml
+- name: Pause between tasks 1
+  operation: pause
+  details:
+    seconds: 2.5
 ```
