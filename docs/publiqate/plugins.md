@@ -10,10 +10,11 @@
 
 ## Community
 
-There is a [dedicated repo](https://github.com/Informatiqal/publiqate-plugins) where community plugins will be hosted. We'll be keep adding plugins there but everyone is free to contribute.
+There is a [dedicated repo](https://github.com/Informatiqal/publiqate-plugins) where community plugins will be hosted. We'll be keep adding plugins there but everyone is free to contribute:
 
-- [SMTP](https://github.com/Informatiqal/publiqate-plugins/blob/main/plugins/smtp/README.md) - send emails. Using EJS template engine for the email body
+- [SMTP](https://github.com/Informatiqal/publiqate-plugins/blob/main/plugins/smtp/README.md) - send emails. Using template engines for the email body. Supported template engines are [EJS](https://ejs.co/), [Handlebars](https://handlebarsjs.com/guide/) (default), [Pug](https://pugjs.org/api/getting-started.html) and [Mustache](https://github.com/janl/mustache.js)
 - [S3](https://github.com/Informatiqal/publiqate-plugins/blob/main/plugins/s3/README.md) - store the notification data to a S3 bucket
+- [HTML](https://github.com/Informatiqal/publiqate-plugins/blob/main/plugins/html/README.md) - generate HTML files using [EJS](https://ejs.co/), [Handlebars](https://handlebarsjs.com/guide/) (default), [Pug](https://pugjs.org/api/getting-started.html) or [Mustache](https://github.com/janl/mustache.js) templating engines
 
 ## Custom plugins
 
