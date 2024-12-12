@@ -133,8 +133,9 @@ nav:
       - "API": qlik-sse/api.md
       - "Build-in SSE functions": qlik-sse/build-in.md
   - "Enigma.js mixins":
-    - enigma-mixins/index.md
-    - "Doc": enigma-mixins/doc.md
-    - "Global": enigma-mixins/global.md
+      - enigma-mixins/index.md
+      - "Global": enigma-mixins/global.md
+      - "Doc": enigma-mixins/doc.md
+      - "Object": enigma-mixins/object.md
 # TODO: how to configure social cards
 # https://squidfunk.github.io/mkdocs-material/setup/setting-up-social-cards/?h=socia#configuration
