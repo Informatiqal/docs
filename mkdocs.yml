@@ -132,6 +132,8 @@ nav:
       - "Qlik setup": qlik-sse/qs-setup.md
       - "API": qlik-sse/api.md
       - "Build-in SSE functions": qlik-sse/build-in.md
+  - "FunkSSE":
+      - funk-sse/index.md
   - "Enigma.js mixins":
       - enigma-mixins/index.md
       - "Global": enigma-mixins/global.md
