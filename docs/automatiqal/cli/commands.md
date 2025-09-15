@@ -120,6 +120,14 @@ Generate sample runbook and variables files in the **current folder**
 
     `automatiqal --sample`
 
+### dryRun
+
+Run all tasks but only retrieve info for the entities and do not alter them (import/update/remove/export etc are not executed)
+
+!!! example "Example"
+
+    `automatiqal --dryRun --file path\to\runbook.yaml`
+
 ### help
 
 Show list of the available commands

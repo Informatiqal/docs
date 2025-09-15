@@ -2,6 +2,10 @@
 
 List of available operations. The aim is to cover as many Qlik Repo API endpoints as possible.
 
+!!! note
+
+    This list needs updating. More operations are available
+
 ```yaml
 about.apiDefaults
 about.apiDescription
@@ -135,3 +139,18 @@ We can define pause between the tasks using `pause` operation:
   details:
     seconds: 2.5
 ```
+
+### Global delay
+
+`Pause` is an explicit way to define delay between tasks. Bit more indirect way is to use the `delay` global option:
+
+```yaml
+name: Sample run book
+description: Short description
+...
+options:
+  delay: 2.5
+...
+```
+
+Specifying delay as a global option will pause the runbook **before** executing each task (excluding the first one)

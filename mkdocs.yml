@@ -69,40 +69,42 @@ markdown_extensions:
 nav:
   - Home: "index.md"
   - "Automatiqal":
-      - automatiqal/index.md
-      - "Runbook structure": "automatiqal/runbook-structure.md"
-      - "Tasks": "automatiqal/tasks.md"
-      - "Events": "automatiqal/events.md"
-      - "Operations": "automatiqal/operations.md"
-      - "Authentication": "automatiqal/authentication.md"
-  - "Automatiqal CLI":
-      - automatiqal-cli/index.md
-      - "Installation": "automatiqal-cli/install.md"
-      - "Commands": "automatiqal-cli/commands.md"
+    - automatiqal/index.md
+    - "JS Package":
+      - automatiqal/package/index.md
+      - "Runbook structure": "automatiqal/package/runbook-structure.md"
+      - "Tasks": "automatiqal/package/tasks.md"
+      - "Events": "automatiqal/package/events.md"
+      - "Operations": "automatiqal/package/operations.md"
+      - "Authentication": "automatiqal/package/authentication.md"
+    - "CLI":
+      - automatiqal/cli/index.md
+      - "Installation": "automatiqal/cli/install.md"
+      - "Commands": "automatiqal/cli/commands.md"
       - "Runbook structure":
-          - "automatiqal-cli/runbook-structure.md"
-          - "Task block": "automatiqal-cli/task-details/task-block.md"
-          - "Filter/source": "automatiqal-cli/task-details/filter-source.md"
-          - "Task options": "automatiqal-cli/task-details/options.md"
-          - "Loop": "automatiqal-cli/task-details/loop.md"
-          - "Concurrency and parallel": "automatiqal-cli/task-details/task-concurrency.md"
-          - "Conditions": "automatiqal-cli/task-details/conditions.md"
-          - "Import": "automatiqal-cli/task-details/import.md"
-          - "onError block": "automatiqal-cli/on-error-block.md"
-          - "Multiple environments": "automatiqal-cli/multiple-environments.md"
-          - "Operations list": "automatiqal-cli/task-details/operations-list.md"
-      - "Authentication": "automatiqal-cli/authentication.md"
+          - "automatiqal/cli/runbook-structure.md"
+          - "Task block": "automatiqal/cli/task-details/task-block.md"
+          - "Filter/source": "automatiqal/cli/task-details/filter-source.md"
+          - "Task options": "automatiqal/cli/task-details/options.md"
+          - "Loop": "automatiqal/cli/task-details/loop.md"
+          - "Concurrency and parallel": "automatiqal/cli/task-details/task-concurrency.md"
+          - "Conditions": "automatiqal/cli/task-details/conditions.md"
+          - "Import": "automatiqal/cli/task-details/import.md"
+          - "onError block": "automatiqal/cli/on-error-block.md"
+          - "Multiple environments": "automatiqal/cli/multiple-environments.md"
+          - "Operations list": "automatiqal/cli/task-details/operations-list.md"
+      - "Authentication": "automatiqal/cli/authentication.md"
       - "Variables":
-          - automatiqal-cli/variables/index.md
-          - "Dedicated file": "automatiqal-cli/variables/dedicated.md"
-          - "Environment": "automatiqal-cli/variables/environment.md"
-          - "Global file": "automatiqal-cli/variables/global.md"
-          - "Inline": "automatiqal-cli/variables/inline.md"
-          - "Reserved variables": "automatiqal-cli/variables/special.md"
-      - "Schema": "automatiqal-cli/schema.md"
-      - "Initial checks": "automatiqal-cli/initial-checks.md"
-      - "Output": "automatiqal-cli/output.md"
-      - "Examples": "automatiqal-cli/examples.md"
+          - automatiqal/cli/variables/index.md
+          - "Dedicated file": "automatiqal/cli/variables/dedicated.md"
+          - "Environment": "automatiqal/cli/variables/environment.md"
+          - "Global file": "automatiqal/cli/variables/global.md"
+          - "Inline": "automatiqal/cli/variables/inline.md"
+          - "Reserved variables": "automatiqal/cli/variables/special.md"
+      - "Schema": "automatiqal/cli/schema.md"
+      - "Initial checks": "automatiqal/cli/initial-checks.md"
+      - "Output": "automatiqal/cli/output.md"
+      - "Examples": "automatiqal/cli/examples.md"
   - "Test-O-Matiq":
       - test-o-matiq/index.md
       - "Structure":

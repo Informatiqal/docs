@@ -2,9 +2,13 @@
 
 ## What it is
 
-`Automatiqal CLI` is the CLI wrapper around the `Automatiqal` package.
+`Automatiqal CLI` is the CLI wrapper around the [Automatiqal](../package/index.md) package.
 
 It allows automating Qlik Sense (QSEoW) administration/deployment tasks by describing them in yaml/json files.
+
+!!! note
+
+    At the moment only Qlik Sense on Windows is supported but SaaS integration is under development
 
 ## Demo and screenshots
 
