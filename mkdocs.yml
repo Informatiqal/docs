@@ -68,6 +68,18 @@ markdown_extensions:
 
 nav:
   - Home: "index.md"
+  - "qlBuilder":
+    - qlBuilder/index.md
+    - "Project":
+      - qlBuilder/project.md
+    - "Commands":
+      - qlBuilder/commands.md
+    - "Templates":
+      - qlBuilder/templates.md
+    - "Plugins":
+      - qlBuilder/plugins.md
+      - "Community plugins": qlBuilder/plugins/community.md
+      - "Developing plugin": qlBuilder/plugins/developing.md
   - "Automatiqal":
     - automatiqal/index.md
     - "JS Package":
