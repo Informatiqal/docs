@@ -8,7 +8,8 @@ In essence plugins are ESM JS files that expose a function, which is then loaded
 Internally all core [commands](../../commands) codebase is implemented as a plugin.
 
 ## Community
-TBA
+
+More info to follow
 
 ## Loading plugins
 

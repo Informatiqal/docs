@@ -84,8 +84,8 @@ Additionally if connection is established to QSE (on-prem) and virtual proxy is 
 ```yaml
 - name: qse-certificates
   # for direct engine connection port should be specified.
-  # The default engine port is 4848
-  host: my-qs-engine-host:4848
+  # The default engine port is 4747 (4848 for QS Desktop)
+  host: my-qs-engine-host:4747
   appId: 12345678-1234-1234-1234-12345678901
   authentication:
     type: certificates
