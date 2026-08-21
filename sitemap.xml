@@ -2,246 +2,274 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://informatiqal.com/</loc>
-         <lastmod>2026-04-07</lastmod>
+         <lastmod>2026-08-21</lastmod>
     </url>
     <url>
          <loc>https://informatiqal.com/automatiqal/</loc>
-         <lastmod>2026-04-07</lastmod>
+         <lastmod>2026-08-21</lastmod>
     </url>
     <url>
          <loc>https://informatiqal.com/automatiqal/cli/</loc>
-         <lastmod>2026-04-07</lastmod>
+         <lastmod>2026-08-21</lastmod>
     </url>
     <url>
          <loc>https://informatiqal.com/automatiqal/cli/authentication/</loc>
-         <lastmod>2026-04-07</lastmod>
+         <lastmod>2026-08-21</lastmod>
     </url>
     <url>
          <loc>https://informatiqal.com/automatiqal/cli/commands/</loc>
-         <lastmod>2026-04-07</lastmod>
+         <lastmod>2026-08-21</lastmod>
     </url>
     <url>
          <loc>https://informatiqal.com/automatiqal/cli/examples/</loc>
-         <lastmod>2026-04-07</lastmod>
+         <lastmod>2026-08-21</lastmod>
     </url>
     <url>
          <loc>https://informatiqal.com/automatiqal/cli/initial-checks/</loc>
-         <lastmod>2026-04-07</lastmod>
+         <lastmod>2026-08-21</lastmod>
     </url>
     <url>
          <loc>https://informatiqal.com/automatiqal/cli/install/</loc>
-         <lastmod>2026-04-07</lastmod>
+         <lastmod>2026-08-21</lastmod>
     </url>
     <url>
          <loc>https://informatiqal.com/automatiqal/cli/multiple-environments/</loc>
-         <lastmod>2026-04-07</lastmod>
+         <lastmod>2026-08-21</lastmod>
     </url>
     <url>
          <loc>https://informatiqal.com/automatiqal/cli/on-error-block/</loc>
-         <lastmod>2026-04-07</lastmod>
+         <lastmod>2026-08-21</lastmod>
     </url>
     <url>
          <loc>https://informatiqal.com/automatiqal/cli/output/</loc>
-         <lastmod>2026-04-07</lastmod>
+         <lastmod>2026-08-21</lastmod>
     </url>
     <url>
          <loc>https://informatiqal.com/automatiqal/cli/runbook-structure/</loc>
-         <lastmod>2026-04-07</lastmod>
+         <lastmod>2026-08-21</lastmod>
     </url>
     <url>
          <loc>https://informatiqal.com/automatiqal/cli/schema/</loc>
-         <lastmod>2026-04-07</lastmod>
+         <lastmod>2026-08-21</lastmod>
     </url>
     <url>
          <loc>https://informatiqal.com/automatiqal/cli/task-details/conditions/</loc>
-         <lastmod>2026-04-07</lastmod>
+         <lastmod>2026-08-21</lastmod>
     </url>
     <url>
          <loc>https://informatiqal.com/automatiqal/cli/task-details/filter-source/</loc>
-         <lastmod>2026-04-07</lastmod>
+         <lastmod>2026-08-21</lastmod>
     </url>
     <url>
          <loc>https://informatiqal.com/automatiqal/cli/task-details/import/</loc>
-         <lastmod>2026-04-07</lastmod>
+         <lastmod>2026-08-21</lastmod>
     </url>
     <url>
          <loc>https://informatiqal.com/automatiqal/cli/task-details/loop/</loc>
-         <lastmod>2026-04-07</lastmod>
+         <lastmod>2026-08-21</lastmod>
     </url>
     <url>
          <loc>https://informatiqal.com/automatiqal/cli/task-details/operations-list/</loc>
-         <lastmod>2026-04-07</lastmod>
+         <lastmod>2026-08-21</lastmod>
     </url>
     <url>
          <loc>https://informatiqal.com/automatiqal/cli/task-details/options/</loc>
-         <lastmod>2026-04-07</lastmod>
+         <lastmod>2026-08-21</lastmod>
     </url>
     <url>
          <loc>https://informatiqal.com/automatiqal/cli/task-details/task-block/</loc>
-         <lastmod>2026-04-07</lastmod>
+         <lastmod>2026-08-21</lastmod>
     </url>
     <url>
          <loc>https://informatiqal.com/automatiqal/cli/task-details/task-concurrency/</loc>
-         <lastmod>2026-04-07</lastmod>
+         <lastmod>2026-08-21</lastmod>
     </url>
     <url>
          <loc>https://informatiqal.com/automatiqal/cli/variables/</loc>
-         <lastmod>2026-04-07</lastmod>
+         <lastmod>2026-08-21</lastmod>
     </url>
     <url>
          <loc>https://informatiqal.com/automatiqal/cli/variables/dedicated/</loc>
-         <lastmod>2026-04-07</lastmod>
+         <lastmod>2026-08-21</lastmod>
     </url>
     <url>
          <loc>https://informatiqal.com/automatiqal/cli/variables/environment/</loc>
-         <lastmod>2026-04-07</lastmod>
+         <lastmod>2026-08-21</lastmod>
     </url>
     <url>
          <loc>https://informatiqal.com/automatiqal/cli/variables/global/</loc>
-         <lastmod>2026-04-07</lastmod>
+         <lastmod>2026-08-21</lastmod>
     </url>
     <url>
          <loc>https://informatiqal.com/automatiqal/cli/variables/inline/</loc>
-         <lastmod>2026-04-07</lastmod>
+         <lastmod>2026-08-21</lastmod>
     </url>
     <url>
          <loc>https://informatiqal.com/automatiqal/cli/variables/special/</loc>
-         <lastmod>2026-04-07</lastmod>
+         <lastmod>2026-08-21</lastmod>
     </url>
     <url>
          <loc>https://informatiqal.com/automatiqal/package/</loc>
-         <lastmod>2026-04-07</lastmod>
+         <lastmod>2026-08-21</lastmod>
     </url>
     <url>
          <loc>https://informatiqal.com/automatiqal/package/authentication/</loc>
-         <lastmod>2026-04-07</lastmod>
+         <lastmod>2026-08-21</lastmod>
     </url>
     <url>
          <loc>https://informatiqal.com/automatiqal/package/events/</loc>
-         <lastmod>2026-04-07</lastmod>
+         <lastmod>2026-08-21</lastmod>
     </url>
     <url>
          <loc>https://informatiqal.com/automatiqal/package/operations/</loc>
-         <lastmod>2026-04-07</lastmod>
+         <lastmod>2026-08-21</lastmod>
     </url>
     <url>
          <loc>https://informatiqal.com/automatiqal/package/runbook-structure/</loc>
-         <lastmod>2026-04-07</lastmod>
+         <lastmod>2026-08-21</lastmod>
     </url>
     <url>
          <loc>https://informatiqal.com/automatiqal/package/tasks/</loc>
-         <lastmod>2026-04-07</lastmod>
+         <lastmod>2026-08-21</lastmod>
     </url>
     <url>
          <loc>https://informatiqal.com/enigma-mixins/</loc>
-         <lastmod>2026-04-07</lastmod>
+         <lastmod>2026-08-21</lastmod>
     </url>
     <url>
          <loc>https://informatiqal.com/enigma-mixins/doc/</loc>
-         <lastmod>2026-04-07</lastmod>
+         <lastmod>2026-08-21</lastmod>
     </url>
     <url>
          <loc>https://informatiqal.com/enigma-mixins/global/</loc>
-         <lastmod>2026-04-07</lastmod>
+         <lastmod>2026-08-21</lastmod>
     </url>
     <url>
          <loc>https://informatiqal.com/enigma-mixins/object/</loc>
-         <lastmod>2026-04-07</lastmod>
+         <lastmod>2026-08-21</lastmod>
     </url>
     <url>
          <loc>https://informatiqal.com/funk-sse/</loc>
-         <lastmod>2026-04-07</lastmod>
+         <lastmod>2026-08-21</lastmod>
     </url>
     <url>
          <loc>https://informatiqal.com/publiqate/</loc>
-         <lastmod>2026-04-07</lastmod>
+         <lastmod>2026-08-21</lastmod>
     </url>
     <url>
          <loc>https://informatiqal.com/publiqate/admin-and-api/</loc>
-         <lastmod>2026-04-07</lastmod>
+         <lastmod>2026-08-21</lastmod>
     </url>
     <url>
          <loc>https://informatiqal.com/publiqate/plugins/</loc>
-         <lastmod>2026-04-07</lastmod>
+         <lastmod>2026-08-21</lastmod>
+    </url>
+    <url>
+         <loc>https://informatiqal.com/qlBuilder/</loc>
+         <lastmod>2026-08-21</lastmod>
+    </url>
+    <url>
+         <loc>https://informatiqal.com/qlBuilder/commands/</loc>
+         <lastmod>2026-08-21</lastmod>
+    </url>
+    <url>
+         <loc>https://informatiqal.com/qlBuilder/plugins/</loc>
+         <lastmod>2026-08-21</lastmod>
+    </url>
+    <url>
+         <loc>https://informatiqal.com/qlBuilder/project/</loc>
+         <lastmod>2026-08-21</lastmod>
+    </url>
+    <url>
+         <loc>https://informatiqal.com/qlBuilder/templates/</loc>
+         <lastmod>2026-08-21</lastmod>
+    </url>
+    <url>
+         <loc>https://informatiqal.com/qlBuilder/plugins/community/</loc>
+         <lastmod>2026-08-21</lastmod>
+    </url>
+    <url>
+         <loc>https://informatiqal.com/qlBuilder/plugins/developing/</loc>
+         <lastmod>2026-08-21</lastmod>
     </url>
     <url>
          <loc>https://informatiqal.com/qlik-sse/</loc>
-         <lastmod>2026-04-07</lastmod>
+         <lastmod>2026-08-21</lastmod>
     </url>
     <url>
          <loc>https://informatiqal.com/qlik-sse/api/</loc>
-         <lastmod>2026-04-07</lastmod>
+         <lastmod>2026-08-21</lastmod>
     </url>
     <url>
          <loc>https://informatiqal.com/qlik-sse/basic-sse-plugin/</loc>
-         <lastmod>2026-04-07</lastmod>
+         <lastmod>2026-08-21</lastmod>
     </url>
     <url>
          <loc>https://informatiqal.com/qlik-sse/build-in/</loc>
-         <lastmod>2026-04-07</lastmod>
+         <lastmod>2026-08-21</lastmod>
     </url>
     <url>
          <loc>https://informatiqal.com/qlik-sse/concepts/</loc>
-         <lastmod>2026-04-07</lastmod>
+         <lastmod>2026-08-21</lastmod>
     </url>
     <url>
          <loc>https://informatiqal.com/qlik-sse/install/</loc>
-         <lastmod>2026-04-07</lastmod>
+         <lastmod>2026-08-21</lastmod>
     </url>
     <url>
          <loc>https://informatiqal.com/qlik-sse/qs-setup/</loc>
-         <lastmod>2026-04-07</lastmod>
+         <lastmod>2026-08-21</lastmod>
     </url>
     <url>
          <loc>https://informatiqal.com/qlik-sse/ssl/</loc>
-         <lastmod>2026-04-07</lastmod>
+         <lastmod>2026-08-21</lastmod>
     </url>
     <url>
          <loc>https://informatiqal.com/test-o-matiq/</loc>
-         <lastmod>2026-04-07</lastmod>
+         <lastmod>2026-08-21</lastmod>
     </url>
     <url>
          <loc>https://informatiqal.com/test-o-matiq/events/</loc>
-         <lastmod>2026-04-07</lastmod>
+         <lastmod>2026-08-21</lastmod>
     </url>
     <url>
          <loc>https://informatiqal.com/test-o-matiq/future/</loc>
-         <lastmod>2026-04-07</lastmod>
+         <lastmod>2026-08-21</lastmod>
     </url>
     <url>
          <loc>https://informatiqal.com/test-o-matiq/states/</loc>
-         <lastmod>2026-04-07</lastmod>
+         <lastmod>2026-08-21</lastmod>
     </url>
     <url>
          <loc>https://informatiqal.com/test-o-matiq/structure/</loc>
-         <lastmod>2026-04-07</lastmod>
+         <lastmod>2026-08-21</lastmod>
     </url>
     <url>
          <loc>https://informatiqal.com/test-o-matiq/structure/environment/</loc>
-         <lastmod>2026-04-07</lastmod>
+         <lastmod>2026-08-21</lastmod>
     </url>
     <url>
          <loc>https://informatiqal.com/test-o-matiq/structure/general/</loc>
-         <lastmod>2026-04-07</lastmod>
+         <lastmod>2026-08-21</lastmod>
     </url>
     <url>
          <loc>https://informatiqal.com/test-o-matiq/structure/props/</loc>
-         <lastmod>2026-04-07</lastmod>
+         <lastmod>2026-08-21</lastmod>
     </url>
     <url>
          <loc>https://informatiqal.com/test-o-matiq/structure/spec/</loc>
-         <lastmod>2026-04-07</lastmod>
+         <lastmod>2026-08-21</lastmod>
     </url>
     <url>
          <loc>https://informatiqal.com/test-o-matiq/structure/spec/data/</loc>
-         <lastmod>2026-04-07</lastmod>
+         <lastmod>2026-08-21</lastmod>
     </url>
     <url>
          <loc>https://informatiqal.com/test-o-matiq/structure/spec/meta/</loc>
-         <lastmod>2026-04-07</lastmod>
+         <lastmod>2026-08-21</lastmod>
     </url>
     <url>
          <loc>https://informatiqal.com/test-o-matiq-cli/</loc>
-         <lastmod>2026-04-07</lastmod>
+         <lastmod>2026-08-21</lastmod>
     </url>
 </urlset>
