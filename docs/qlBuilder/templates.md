@@ -1,6 +1,6 @@
 # Templates
 
-Templates are a niche functionality. They are used in [./commands/#create](create) command to populate the initial script files and/or config file.
+Templates are a niche functionality. They are used in [create](commands.md#create) command to populate the initial script files and/or config file.
 
 To create templates first create `C:\Users\<CURRENT USER>\qlbuilder_templates` folder. Inside it crate two more folder: `config` and `script`.
 

@@ -6,8 +6,13 @@ repo_name: I N F O R M A T I Q A L
 theme:
   name: material
   features:
-    # - navigation.expand
+    - navigation.path
     - navigation.top
+    - search.highlight
+    - navigation.indexes
+    # - navigation.tracking
+    # - navigation.instant
+    # - navigation.instant.prefetch
   custom_dir: docs/overrides
   icon:
     repo: fontawesome/brands/github
@@ -35,6 +40,16 @@ extra:
       as to measure the effectiveness of our documentation and whether users
       find what they're searching for. With your consent, you're helping us to
       make our documentation better
+  social:
+    - icon: fontawesome/brands/x-twitter
+      link: https://x.com/informatiqal
+      name: Informatiqal on X (Twitter)
+    - icon: fontawesome/brands/discord
+      link: https://discord.gg/KhQ3vZWZWx
+      name: Informatiqal on Discord
+    - icon: fontawesome/brands/github
+      link: https://github.com/Informatiqal
+      name: Informatiqal on GitHub
 extra_css:
   - stylesheets/extra.css
 plugins:
@@ -49,7 +64,9 @@ plugins:
       pretty_print: false
   - search:
       lang: en
-  - section-index
+  # - offline:
+  #     enabled: true
+  # - section-index
 markdown_extensions:
   - pymdownx.highlight:
       use_pygments: true
@@ -62,61 +79,57 @@ markdown_extensions:
   - attr_list
   - md_in_html
   - pymdownx.emoji:
-      emoji_index: !!python/name:material.extensions.emoji.twemoji
-      emoji_generator: !!python/name:material.extensions.emoji.to_svg
-
+      emoji_index: zensical.extensions.emoji.twemoji
+      emoji_generator: zensical.extensions.emoji.to_svg
 
 nav:
   - Home: "index.md"
   - "qlBuilder":
-    - qlBuilder/index.md
-    - "Project":
-      - qlBuilder/project.md
-    - "Commands":
-      - qlBuilder/commands.md
-    - "Templates":
-      - qlBuilder/templates.md
-    - "Plugins":
-      - qlBuilder/plugins.md
-      - "Community plugins": qlBuilder/plugins/community.md
-      - "Developing plugin": qlBuilder/plugins/developing.md
+      - qlBuilder/index.md
+      - "Project": qlBuilder/project.md
+      - "Commands": qlBuilder/commands.md
+      - "Templates": qlBuilder/templates.md
+      - "Plugins":
+          - qlBuilder/plugins.md
+          - "Community plugins": qlBuilder/plugins/community.md
+          - "Developing plugin": qlBuilder/plugins/developing.md
   - "Automatiqal":
-    - automatiqal/index.md
-    - "JS Package":
-      - automatiqal/package/index.md
-      - "Runbook structure": "automatiqal/package/runbook-structure.md"
-      - "Tasks": "automatiqal/package/tasks.md"
-      - "Events": "automatiqal/package/events.md"
-      - "Operations": "automatiqal/package/operations.md"
-      - "Authentication": "automatiqal/package/authentication.md"
-    - "CLI":
-      - automatiqal/cli/index.md
-      - "Installation": "automatiqal/cli/install.md"
-      - "Commands": "automatiqal/cli/commands.md"
-      - "Runbook structure":
-          - "automatiqal/cli/runbook-structure.md"
-          - "Task block": "automatiqal/cli/task-details/task-block.md"
-          - "Filter/source": "automatiqal/cli/task-details/filter-source.md"
-          - "Task options": "automatiqal/cli/task-details/options.md"
-          - "Loop": "automatiqal/cli/task-details/loop.md"
-          - "Concurrency and parallel": "automatiqal/cli/task-details/task-concurrency.md"
-          - "Conditions": "automatiqal/cli/task-details/conditions.md"
-          - "Import": "automatiqal/cli/task-details/import.md"
-          - "onError block": "automatiqal/cli/on-error-block.md"
-          - "Multiple environments": "automatiqal/cli/multiple-environments.md"
-          - "Operations list": "automatiqal/cli/task-details/operations-list.md"
-      - "Authentication": "automatiqal/cli/authentication.md"
-      - "Variables":
-          - automatiqal/cli/variables/index.md
-          - "Dedicated file": "automatiqal/cli/variables/dedicated.md"
-          - "Environment": "automatiqal/cli/variables/environment.md"
-          - "Global file": "automatiqal/cli/variables/global.md"
-          - "Inline": "automatiqal/cli/variables/inline.md"
-          - "Reserved variables": "automatiqal/cli/variables/special.md"
-      - "Schema": "automatiqal/cli/schema.md"
-      - "Initial checks": "automatiqal/cli/initial-checks.md"
-      - "Output": "automatiqal/cli/output.md"
-      - "Examples": "automatiqal/cli/examples.md"
+      - automatiqal/index.md
+      - "JS Package":
+          - automatiqal/package/index.md
+          - "Runbook structure": "automatiqal/package/runbook-structure.md"
+          - "Tasks": "automatiqal/package/tasks.md"
+          - "Events": "automatiqal/package/events.md"
+          - "Operations": "automatiqal/package/operations.md"
+          - "Authentication": "automatiqal/package/authentication.md"
+      - "CLI":
+          - automatiqal/cli/index.md
+          - "Installation": "automatiqal/cli/install.md"
+          - "Commands": "automatiqal/cli/commands.md"
+          - "Runbook structure":
+              - "automatiqal/cli/runbook-structure.md"
+              - "Task block": "automatiqal/cli/task-details/task-block.md"
+              - "Filter/source": "automatiqal/cli/task-details/filter-source.md"
+              - "Task options": "automatiqal/cli/task-details/options.md"
+              - "Loop": "automatiqal/cli/task-details/loop.md"
+              - "Concurrency and parallel": "automatiqal/cli/task-details/task-concurrency.md"
+              - "Conditions": "automatiqal/cli/task-details/conditions.md"
+              - "Import": "automatiqal/cli/task-details/import.md"
+              - "onError block": "automatiqal/cli/on-error-block.md"
+              - "Multiple environments": "automatiqal/cli/multiple-environments.md"
+              - "Operations list": "automatiqal/cli/task-details/operations-list.md"
+          - "Authentication": "automatiqal/cli/authentication.md"
+          - "Variables":
+              - automatiqal/cli/variables/index.md
+              - "Dedicated file": "automatiqal/cli/variables/dedicated.md"
+              - "Environment": "automatiqal/cli/variables/environment.md"
+              - "Global file": "automatiqal/cli/variables/global.md"
+              - "Inline": "automatiqal/cli/variables/inline.md"
+              - "Reserved variables": "automatiqal/cli/variables/special.md"
+          - "Schema": "automatiqal/cli/schema.md"
+          - "Initial checks": "automatiqal/cli/initial-checks.md"
+          - "Output": "automatiqal/cli/output.md"
+          - "Examples": "automatiqal/cli/examples.md"
   - "Test-O-Matiq":
       - test-o-matiq/index.md
       - "Structure":
@@ -131,12 +144,17 @@ nav:
       - "Alternate states": test-o-matiq/states.md
       - "Events": test-o-matiq/events.md
       - "Future": test-o-matiq/future.md
-  - "Test-O-Matiq CLI":
-      - test-o-matiq-cli/index.md
+  # - "Test-O-Matiq CLI":
+  #     - test-o-matiq-cli/index.md
   - "Publiqate":
-    - publiqate/index.md
-    - "Plugins": publiqate/plugins.md
-    - "Admin UI and API": publiqate/admin-and-api.md
+      - publiqate/index.md
+      - "Plugins": publiqate/plugins.md
+      - "Admin UI and API": publiqate/admin-and-api.md
+  - "Enigma.js mixins":
+      - enigma-mixins/index.md
+      - "Global": enigma-mixins/global.md
+      - "Doc": enigma-mixins/doc.md
+      - "Object": enigma-mixins/object.md
   - "Qlik SSE (Node.js)":
       - qlik-sse/index.md
       - "Concepts": qlik-sse/concepts.md
@@ -148,10 +166,5 @@ nav:
       - "Build-in SSE functions": qlik-sse/build-in.md
   - "FunkSSE":
       - funk-sse/index.md
-  - "Enigma.js mixins":
-      - enigma-mixins/index.md
-      - "Global": enigma-mixins/global.md
-      - "Doc": enigma-mixins/doc.md
-      - "Object": enigma-mixins/object.md
 # TODO: how to configure social cards
 # https://squidfunk.github.io/mkdocs-material/setup/setting-up-social-cards/?h=socia#configuration

@@ -1,4 +1,4 @@
-# Automatiqal
+# Main
 
 The main purpose of `Automatiqal` is to help Qlik admin/support teams with the deployment, maintenance, configuration and administration of their Qlik instances.
 

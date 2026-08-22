@@ -2,10 +2,10 @@
 
 `qlBuilder` supports writing and loading custom build plugins. The plugins are side-loaded and can extend `qlBuilder` functionality with extra commands.
 
-In essence plugins are ESM JS files that expose a function, which is then loaded during `qlBuilder` startup. Have a look at the [developing plugin](./developing) page for more info.
+In essence plugins are ESM JS files that expose a function, which is then loaded during `qlBuilder` startup. Have a look at the [developing plugin](plugins/developing.md) page for more info.
 
 ## Internal
-Internally all core [commands](../../commands) codebase is implemented as a plugin.
+Internally all core [commands](commands.md) codebase is implemented as a plugin.
 
 ## Community
 

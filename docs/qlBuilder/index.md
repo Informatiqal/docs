@@ -18,7 +18,7 @@ Once the global package is installed `qlbuilder` command can be used from CMD/Po
 
 The next steps are:
 
-- [create and setup your first project](./project)
+- [create and setup your first project](project.md)
 - setup the global config
 
 # Global config
@@ -29,11 +29,11 @@ The structure of the file is simple and contains the Qlik environment name and t
 
 !!! info "Important"
 
-    The environment names shuold be unique
+    The environment names should be unique
 
 !!! info "Info"
 
-    The file can be encrypted. Have a look at [encrypt](./commands/#encrypt) and [decrpyt](./commands/#decrypt) commands
+    The file can be encrypted. Have a look at [encrypt](commands.md#encrypt) and [decrypt](commands.md#decrypt) commands
 
 ```yaml
 dev:

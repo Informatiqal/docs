@@ -4,8 +4,8 @@ As mentioned the custom plugins are simple ESM JS files that are loaded during `
 
 The custom plugin have to export two entities:
 
-- [meta object](./#meta-object)
-- [action function](./#action-function)
+- [meta object](#meta-object)
+- [action function](#action-function)
 
 !!! info "More info 1"
 

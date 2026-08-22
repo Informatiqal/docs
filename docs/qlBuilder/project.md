@@ -38,7 +38,7 @@ The main entities here are:
 
 !!! info
 
-    Files order and numbering can be managed with [section](./commands/#section) command
+    Files order and numbering can be managed with [section](commands.md#section) command
 
 - `config.yml` - configuration for this project (see the next section)
 
@@ -55,7 +55,7 @@ This boilerplate file contains list of named environments. Each item in the list
 
 !!! warning "Important"
 
-    The `name` property is important. Its value will be used to match a respective credentials in the [global config](index/#global-config)
+    The `name` property is important. Its value will be used to match a respective credentials in the [global config](index.md#global-config)
 
 ### Authentication properties
 

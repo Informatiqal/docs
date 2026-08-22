@@ -59,7 +59,7 @@ Create new project structure in the current directory
 
 !!! info "Templates"
 
-    Check out the [templates](../templates) page for more info about templates
+    Check out the [templates](templates.md) page for more info about templates
 
 ## cred
 
@@ -262,13 +262,13 @@ qlbuilder tables [env]
 ```
 
 ```
-qlbuilder tables [env] --output C:\path\to\locaiton\tables.txt
+qlbuilder tables [env] --output C:\path\to\location\tables.txt
 ```
 
 
 ## templates
 
-List the available config and script templates. (Check out the [templates](../templates) documentation for more info about templates)
+List the available config and script templates. (Check out the [templates](templates.md) documentation for more info about templates)
 
 **Examples**
 
@@ -297,7 +297,7 @@ Starts `watch` mode. In this mode `qlBuilder` listens for file changes inside `s
 - environment name (mandatory)
 - `-r, --reload` - (optional) - after each file change reload the app
 - `-s, --set` - (optional) - after each file change set the script back to Qlik
-- `-d, --disable` - (optional) - disable the default behaviour and do not check the app for script errors after each file change
+- `-d, --disable` - (optional) - disable the default behavior and do not check the app for script errors after each file change
 
 **Examples:**
 
