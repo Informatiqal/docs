@@ -90,7 +90,7 @@ nav:
       - "Commands": qlBuilder/commands.md
       - "Templates": qlBuilder/templates.md
       - "Plugins":
-          - qlBuilder/plugins.md
+          - qlBuilder/plugins/index.md
           - "Community plugins": qlBuilder/plugins/community.md
           - "Developing plugin": qlBuilder/plugins/developing.md
   - "Automatiqal":
