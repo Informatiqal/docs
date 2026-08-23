@@ -72,12 +72,12 @@ Stops the server.
 
 - `fn` <[function] ([Request](#request))>
 - `config` <[Object]>
-    - `functionType` <[FunctionType]> Type of function
-    - `returnType` <[DataType]> Type of data this function is expected to return
+    - `functionType` `<[FunctionType]>` Type of function
+    - `returnType` `<[DataType]>` Type of data this function is expected to return
     - `params` <[Array]<[Object]>>
     - `name` <[string]>
-    - `dataType`: <[DataType]>
-    - `tableDescription` <[TableDescription]> Description of the returned table when function is called from load script using the `extension` clause.
+    - `dataType`: `<[DataType]>`
+    - `tableDescription` `<[TableDescription]>` Description of the returned table when function is called from load script using the `extension` clause.
 
 Register a function which can be called from an expression.
 
@@ -158,7 +158,7 @@ Removes specific function.  The function is identified by its `id`.
 ### `request.on(event, fn)`
 
 - `event` <[string]> Name of event to listen to. Possible values: `data`.
-- `fn` <[function] ([BundledRows])>
+- `fn` <[function] (`[BundledRows]`)>
 
 ```js
 request.on('data', (bundle) => {/* deal with bundle*/})
@@ -166,7 +166,7 @@ request.on('data', (bundle) => {/* deal with bundle*/})
 
 ### `request.write(bundle)`
 
-- `bundle` <[BundledRows]>
+- `bundle` `<[BundledRows]>`
 
 Writes data back to Qlik Engine.
 
