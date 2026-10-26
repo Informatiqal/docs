@@ -125,6 +125,10 @@ qlbuilder download [env] --path C:\path\to\some\folder
 
 ## encrypt
 
+!!! info "INFO"
+
+    Encryption is done with `aes-256-gcm` algorithm.
+
 Encrypts `C:\Users\<USERNAME>\.qlBuilder.yml`. Password will be entered in the prompt.
 
 **Parameters:**
