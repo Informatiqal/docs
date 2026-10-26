@@ -46,6 +46,7 @@ PluginMeta {
     requireApp?: boolean;
     configFile?: string;
   };
+  subCommands?: PluginMeta[]
 }
 ```
 
@@ -66,7 +67,27 @@ This section defines few properties which guide `qlBuilder` on what the argument
 - `requireEnv` - (default `true`) if `true` the command will have to have an environment as an argument
 - `configFile` - (default `config.yml`) allows to specify which config file to be used
 
+#### Sub-commands
+
+Sub-commands is an optional property. Its usage is for the ability to define nested commands. Each of the (sub) commands can have (or not) its own `action` function.
+
+An example of sub-commands usage:
+
+```bash
+qlbuilder myCommand another yetAnother --some-flag
+```
+
+In the above example the `action` for `yetAnother` command will be executed.
+
+The structure of `subCommands` objects is the same as the `meta` object. Each sub-command meta object can have it own sub-commands. There is no limitation on how many nested levels can be.
+
+For real live example, please check [config edit plugin](https://github.com/informatiqal/qlbuilder-plugins/blob/main/config-edit/src/index.js) source code.
+
 ## Action function
+
+!!! info "More info"
+
+    Action function is optional. When the plugin is invoked and action is not present then `qlBuilder` will just output the help info for the command. This is mostly used in case of sub-commands.
 
 The command is first registered from the `meta` object. When the custom command is invoked `qlBuilder` will do the needful first (some checks, establish connection etc.) and then will call the plugin `action` function. The call will include the object below as an argument:
 
